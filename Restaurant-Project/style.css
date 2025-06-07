@@ -1,19 +1,22 @@
-ul li a:hover{
-   color: #FF8C7A;
-   background-color: #FF8C7A;
-   
+ul li a:hover {
+    color: #FF8C7A;
+    background-color: #FF8C7A;
+
 }
-body{
+
+body {
     background-color: #FFFDED;
 }
 
-.space{
+.space {
     letter-spacing: 2px;
 }
-.nospace{
+
+.nospace {
     letter-spacing: 0px;
 }
-.sunday{
+
+.sunday {
     opacity: 1;
     background-color: #0000;
     background-image: url(people/banner.webp), linear-gradient(#0000003b, #0000003b);
@@ -30,8 +33,9 @@ body{
     display: flex;
     transform: translate(0);
 }
-.dinner{
-    
+
+.dinner {
+
     opacity: 1;
     background-color: #0000;
     background-image: url(image/menu.jpg), linear-gradient(#0000003b, #0000003b);
@@ -60,33 +64,36 @@ body{
     border-width: 1px;
 } */
 form input {
-    width:700px;
-    background-color:#FFFDED ;
+    width: 700px;
+    background-color: #FFFDED;
     border-color: #02594D;
     border-width: 1px;
     border-top-color: #02594D;
     line-height: 2px;
-   
+
 }
-textarea{
+
+textarea {
     width: 700px;
-     background-color:#FFFDED ;
+    background-color: #FFFDED;
     border-color: #02594D;
     border-width: 1px;
     height: 150px;
 }
+
 select {
     width: 700px;
-     background-color:#FFFDED ;
+    background-color: #FFFDED;
     border-color: #02594D;
     border-width: 1px;
 
 }
+
 /* option{
     color:#02594D;
 } */
 
-.nocturnous{
+.nocturnous {
     opacity: 1;
     background-color: #0000;
     background-image: url(image/nocturnous.jpg), linear-gradient(#0000003b, #0000003b);
@@ -102,4 +109,49 @@ select {
     transition: opacity .2s;
     display: flex;
     transform: translate(0);
+}
+
+.landingimg {
+    z-index: 0;
+    background-color: var(--black);
+    -webkit-text-fill-color: inherit;
+    object-fit: cover;
+    background-clip: border-box;
+    width: 100%;
+    height: 100%;
+    display: block;
+    position: relative;
+    inset: 0% auto auto 0%;
+    background-position: 50% 50%;
+}
+
+@media screen and (max-width: 991px) {
+    .landingimg {
+        height: 100%;
+    }
+}
+
+.navbar-brand {
+    justify-content: center;
+    color: #87b3ac !important;
+    /* Greenish */
+    font-size: 1.8rem;
+
+}
+
+.nav-link {
+    color: #014034 !important;
+    /* Dark teal */
+    font-weight: 600;
+    margin-left: 1rem;
+    text-transform: uppercase;
+}
+
+.navbar {
+    background-color: #fffdee !important;
+    border-bottom: 1px solid #eee;
+}
+
+.fonts {
+    font-size: 18px;
 }
