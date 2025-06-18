@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    background-color: #284b63;
+    color: #fff;
+    text-align: center;
+    height: 3rem;
+    line-height: 3rem;
+}
+
+.choices {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 4rem;
+}
+
+.choice {
+    height: 165px;
+    width: 165px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choice:hover {
+    /* opacity: 0.5; for blur we use it */
+    cursor: pointer;
+    background-color: black;
+}
+
+img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    background-color: aqua;
+}
+
+/* score board */
+.score-board {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 4rem;
+    margin-top: 3rem;
+}
+
+#user,
+#comp {
+    font-size: 4rem;
+    text-align: center;
+}
+
+/* message container  */
+.msg-container {
+    margin-top: 4rem;
+    text-align: center;
+}
+
+#msg {
+    background-color: #284b63;
+    color: #fff;
+    /* line-height: 2rem; */
+    font-size: 2rem;
+    padding: 1rem;
+    display: inline;
+    border-radius: 1rem;
+}
