@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-family: cursive;
+}
+
+.container {
+    text-align: center;
+    margin-top: 5vmin;
+
+}
+
+/* #change {
+    min-width: 12.5%;
+    padding: .9rem;
+    font-size: 1.5rem;
+    border-radius: 30px;
+    margin-top: 50vmin;
+    background-color: lightgreen;
+    border: none;
+    
+    
+} */
+
+/* #change:hover {
+    opacity: 50%;
+    
+    transform: scale(1.05);
+    
+    cursor: pointer;
+
+} */
+
+.Dark {
+    background-color: black;
+    color: white;
+}
+
+.Light {
+    /* background-color: white;
+    color: black; */
+}
+
+
+/* CSS */
+#change {
+
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 20px 13px;
+  outline: 0;
+  border: 1px solid black;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  margin-top: 50vmin;
+}
+
+#change:after {
+  content: "";
+  background-color: #ffe54c;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+#change:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  #change {
+    padding: 13px 50px 13px;
+  }
+}
