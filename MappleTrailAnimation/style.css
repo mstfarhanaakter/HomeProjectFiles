@@ -1,0 +1,35 @@
+body{
+    margin: 0;
+    height: 100vh;
+    background:linear-gradient(#845ec2,#d65db1,#ff6f91,#ff9671,#ffc75f,#f9f871);
+    overflow: hidden;
+}
+
+span{
+    background-image: url(mapple.png);
+    position: absolute;
+    background-size: cover;
+    width: 100px;
+    height: 100px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    pointer-events: none;
+    animation: animate 7s linear;
+}
+
+@keyframes animate {
+    0%{
+        transform: translate(-50%, -50%);
+        opacity: 1;
+        filter: hue-rotate(0);
+    }
+    100%{
+        transform: translate(-50%, -5000%);
+        opacity: 0;
+        filter: hue-rotate(720deg);
+    }
+    
+}
+
+
